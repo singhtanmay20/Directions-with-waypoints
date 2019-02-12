@@ -1,0 +1,26 @@
+{
+  "name": "ds_proj_1_f",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tanmay",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "body-parser": "^1.18.3",
+    "deasync": "^0.1.13",
+    "describe": "^1.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "it": "^1.1.1",
+    "jasmine": "^3.2.0",
+    "mongodb": "^3.1.6",
+    "openweathermap-node": "^1.1.2",
+    "request": "^2.88.0",
+    "requestify": "^0.2.5",
+    "sync-request": "^6.0.0"
+  }
+}

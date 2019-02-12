@@ -1,0 +1,23 @@
+
+
+Readme
+
+#Requirements
+
+Node.js
+npm
+Google Maps API Client Module (included with the node modules)
+Linux
+
+#usage
+
+first Start the node server using the below command
+$node server.js
+open a browser on localhost port 3000
+
+enter the input and output locations
+
+#info
+
+Bounds are handled in phase 2 
+ 

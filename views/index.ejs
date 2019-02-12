@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+
+    <title>Routes Weather</title>
+    <script   type="text/javascript" src = "./final_functions1.js" defer >
+    </script>
+    <style>
+    #map {
+      height: 100%;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #floating-panel {
+      position: absolute;
+      top: 10px;
+      left: 35%;
+      z-index: 5;
+      background-color: #fff;
+      padding: 5px;
+      border: 1px solid #999;
+      text-align: center;
+      font-family: 'Roboto','sans-serif';
+      line-height: 30px;
+      padding-left: 10px;
+    }
+
+    </style>
+
+    <script type="application/javascript" src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAFBqP-xdCwIi2erYvEEUVIHdCNPfzZk8Y&libraries=places&callback=initMap"
+    defer>
+    </script>
+
+
+    <script  type="text/javascript" src = "./polyline.js" async defer >
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+</head>
+  <body>
+      <div id="floating-panel" class="floating-panel" >
+        <b>Start : </b>
+        <input type="text" id="start" name="start"><br>
+        <b > End: </b>
+        <input type="text" id="end" name="end" ><br>
+        <!--<input  type="submit" value="Go" id="button" onclick="submitForm()">-->
+        <input  type="button" value="Go" id="button">
+  </h4>
+</div>
+
+    <div id="map"></div>
+
+
+   <script id="s1">
+   </script>
+
+
+  </body>
+</html>
